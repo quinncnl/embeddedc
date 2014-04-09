@@ -2219,14 +2219,14 @@
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:2350:9: macro definition=TIMERB0_VECTOR <US>c:macro@TIMERB0_VECTOR<UE> <DS>TIMERB0_VECTOR<DE> Extent=<ES>2350:9 - 2350:38<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:2351:9: macro definition=NMI_VECTOR <US>c:macro@NMI_VECTOR<UE> <DS>NMI_VECTOR<DE> Extent=<ES>2351:9 - 2351:38<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:2352:9: macro definition=RESET_VECTOR <US>c:macro@RESET_VECTOR<UE> <DS>RESET_VECTOR<DE> Extent=<ES>2352:9 - 2352:38<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:10:12: macro expansion=TASSEL_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1799:9 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>10:12 - 10:20<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:10:23: macro expansion=ID_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1794:9 <US>c:macro@ID_1<UE> <DS>ID_1<DE> Extent=<ES>10:23 - 10:27<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:10:30: macro expansion=MC_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1790:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>10:30 - 10:34<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:13:14: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1812:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>13:14 - 13:18<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:21:12: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1785:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>21:12 - 21:17<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:22:11: macro expansion=MC_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1790:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>22:11 - 22:15<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:23:11: macro expansion=ID_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1794:9 <US>c:macro@ID_1<UE> <DS>ID_1<DE> Extent=<ES>23:11 - 23:15<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:27:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>27:1 - 27:12<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:9:12: macro expansion=TASSEL_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1799:9 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>9:12 - 9:20<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:9:23: macro expansion=ID_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1794:9 <US>c:macro@ID_1<UE> <DS>ID_1<DE> Extent=<ES>9:23 - 9:27<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:9:30: macro expansion=MC_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1790:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>9:30 - 9:34<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:12:14: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1812:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>12:14 - 12:18<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:20:12: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1785:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>20:12 - 20:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:21:11: macro expansion=MC_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1790:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>21:11 - 21:15<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:22:11: macro expansion=ID_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1794:9 <US>c:macro@ID_1<UE> <DS>ID_1<DE> Extent=<ES>22:11 - 22:15<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:26:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>26:1 - 26:12<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -2396,25 +2396,40 @@
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1693:39: FieldDecl=P9SEL|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1693:39 (Definition) <US>c:msp430fg4619.h@83779@Ua@Sa@FI@P9SEL<UE> <DS>P9SEL<DE> Extent=<ES>1693:5 - 1693:44<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1694:39: FieldDecl=P10SEL|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1694:39 (Definition) <US>c:msp430fg4619.h@83779@Ua@Sa@FI@P10SEL<UE> <DS>P10SEL<DE> Extent=<ES>1694:5 - 1694:45<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1696:39: FieldDecl=PBSEL|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1696:39 (Definition) <US>c:msp430fg4619.h@83767@Ua@FI@PBSEL<UE> <DS>PBSEL<DE> Extent=<ES>1696:3 - 1696:44<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:3:5: VarDecl=cnt|Z:\msee\embeddedc\ex10.1\timer.c:3:5 (Definition) <US>c:@cnt<UE> <DS>cnt<DE> Extent=<ES>3:1 - 3:13<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:3:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>3:11 - 3:13<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:5:5: FunctionDecl=testInterrupt|Z:\msee\embeddedc\ex10.1\timer.c:5:5 (Definition) <US>c:@F@testInterrupt<UE> <DS>int testInterrupt(void)<DE> Extent=<ES>5:1 - 5:40<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:5:20: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>5:20 - 5:40<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:5:22: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>5:22 - 5:37<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:5:29: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>5:29 - 5:37<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:5:29: UnexposedExpr=cnt|Z:\msee\embeddedc\ex10.1\timer.c:3:5 <US>c:@cnt<UE> <DS>cnt<DE> Extent=<ES>5:29 - 5:32<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:5:29: DeclRefExpr=cnt|Z:\msee\embeddedc\ex10.1\timer.c:3:5 (Reference) <US>c:@cnt<UE> <DS>cnt<DE> Extent=<ES>5:29 - 5:32<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:5:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>5:36 - 5:37<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:6:5: FunctionDecl=resetInterruptCounter|Z:\msee\embeddedc\ex10.1\timer.c:6:5 (Definition) <US>c:@F@resetInterruptCounter<UE> <DS>int resetInterruptCounter(void)<DE> Extent=<ES>6:1 - 6:40<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:6:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>6:29 - 6:40<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:6:30: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>6:30 - 6:38<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:6:30: DeclRefExpr=cnt|Z:\msee\embeddedc\ex10.1\timer.c:3:5 (Reference) <US>c:@cnt<UE> <DS>cnt<DE> Extent=<ES>6:30 - 6:33<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:6:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>6:36 - 6:38<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:8:6: FunctionDecl=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.c:8:6 (Definition) <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>8:1 - 17:2<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:8:33: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>8:33 - 17:2<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:20:6: FunctionDecl=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.c:20:6 (Definition) <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>20:1 - 24:2<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:20:27: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>20:27 - 24:2<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:27:18: FunctionDecl=Timer_A|Z:\msee\embeddedc\ex10.1\timer.c:27:18 (Definition) <US>c:@F@Timer_A<UE> <DS>void Timer_A(void)<DE> Extent=<ES>27:13 - 30:2<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:28:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>28:1 - 30:2<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:29:2: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>29:2 - 29:7<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.c:29:2: DeclRefExpr=cnt|Z:\msee\embeddedc\ex10.1\timer.c:3:5 (Reference) <US>c:@cnt<UE> <DS>cnt<DE> Extent=<ES>29:2 - 29:5<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:3:5: VarDecl=doISR|Z:\msee\embeddedc\ex10.1\timer.c:3:5 (Definition) <US>c:@doISR<UE> <DS>doISR<DE> Extent=<ES>3:1 - 3:14<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:3:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>3:13 - 3:14<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:4:5: FunctionDecl=testInterrupt|Z:\msee\embeddedc\ex10.1\timer.c:4:5 (Definition) <US>c:@F@testInterrupt<UE> <DS>int testInterrupt(void)<DE> Extent=<ES>4:1 - 4:42<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:4:20: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>4:20 - 4:42<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:4:22: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>4:22 - 4:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:4:29: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>4:29 - 4:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:4:29: UnexposedExpr=doISR|Z:\msee\embeddedc\ex10.1\timer.c:3:5 <US>c:@doISR<UE> <DS>doISR<DE> Extent=<ES>4:29 - 4:34<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:4:29: DeclRefExpr=doISR|Z:\msee\embeddedc\ex10.1\timer.c:3:5 (Reference) <US>c:@doISR<UE> <DS>doISR<DE> Extent=<ES>4:29 - 4:34<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:4:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>4:38 - 4:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:5:5: FunctionDecl=resetInterruptCounter|Z:\msee\embeddedc\ex10.1\timer.c:5:5 (Definition) <US>c:@F@resetInterruptCounter<UE> <DS>int resetInterruptCounter(void)<DE> Extent=<ES>5:1 - 5:41<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:5:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>5:29 - 5:41<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:5:30: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>5:30 - 5:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:5:30: DeclRefExpr=doISR|Z:\msee\embeddedc\ex10.1\timer.c:3:5 (Reference) <US>c:@doISR<UE> <DS>doISR<DE> Extent=<ES>5:30 - 5:35<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:5:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>5:38 - 5:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:7:6: FunctionDecl=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.c:7:6 (Definition) <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>7:1 - 16:2<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:7:33: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>7:33 - 16:2<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:19:6: FunctionDecl=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.c:19:6 (Definition) <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>19:1 - 23:2<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:19:27: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>19:27 - 23:2<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:26:18: FunctionDecl=Timer_A|Z:\msee\embeddedc\ex10.1\timer.c:26:18 (Definition) <US>c:@F@Timer_A<UE> <DS>void Timer_A(void)<DE> Extent=<ES>26:13 - 36:2<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:27:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>27:1 - 36:2<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:28:2: DeclStmt= <US><UE> <DS><DE> Extent=<ES>28:2 - 28:22<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:28:13: VarDecl=cnt|Z:\msee\embeddedc\ex10.1\timer.c:28:13 (Definition) <US>c:timer.c@488@F@Timer_A@cnt<UE> <DS>cnt<DE> Extent=<ES>28:2 - 28:21<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:28:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:19 - 28:21<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:30:2: IfStmt= <US><UE> <DS><DE> Extent=<ES>30:2 - 33:3<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:30:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>30:6 - 30:14<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:30:6: UnexposedExpr=cnt|Z:\msee\embeddedc\ex10.1\timer.c:28:13 <US>c:timer.c@488@F@Timer_A@cnt<UE> <DS>cnt<DE> Extent=<ES>30:6 - 30:9<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:30:6: DeclRefExpr=cnt|Z:\msee\embeddedc\ex10.1\timer.c:28:13 (Reference) <US>c:timer.c@488@F@Timer_A@cnt<UE> <DS>cnt<DE> Extent=<ES>30:6 - 30:9<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:30:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>30:13 - 30:14<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:30:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>30:16 - 33:3<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:31:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>31:3 - 31:11<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:31:3: DeclRefExpr=cnt|Z:\msee\embeddedc\ex10.1\timer.c:28:13 (Reference) <US>c:timer.c@488@F@Timer_A@cnt<UE> <DS>cnt<DE> Extent=<ES>31:3 - 31:6<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:31:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:9 - 31:11<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:32:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>32:3 - 32:12<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:32:3: DeclRefExpr=doISR|Z:\msee\embeddedc\ex10.1\timer.c:3:5 (Reference) <US>c:@doISR<UE> <DS>doISR<DE> Extent=<ES>32:3 - 32:8<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:32:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>32:11 - 32:12<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:35:2: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>35:2 - 35:7<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.c:35:2: DeclRefExpr=cnt|Z:\msee\embeddedc\ex10.1\timer.c:28:13 (Reference) <US>c:timer.c@488@F@Timer_A@cnt<UE> <DS>cnt<DE> Extent=<ES>35:2 - 35:5<EE>

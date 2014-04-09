@@ -2595,10 +2595,106 @@
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdint.h:229:9: macro definition=UINTMAX_C <US>c:macro@UINTMAX_C<UE> <DS>UINTMAX_C<DE> Extent=<ES>229:9 - 229:51<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdint.h:233:1: macro expansion=_C_STD_END|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\yvals.h:297:11 <US>c:macro@_C_STD_END<UE> <DS>_C_STD_END<DE> Extent=<ES>233:1 - 233:11<EE>
 <L>Z:\msee\embeddedc\ex10.1\main.c:3:1: inclusion directive=timer.h <US><UE> <DS><DE> <IS>Z:\msee\embeddedc\ex10.1\timer.h<IE>  Extent=<ES>3:1 - 3:19<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:7:12: macro expansion=WDTPW|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:2300:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>7:12 - 7:17<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:7:20: macro expansion=WDTHOLD|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:2298:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>7:20 - 7:27<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:11:13: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:87:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>11:13 - 11:17<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:19:13: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:87:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>19:13 - 19:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:4:1: inclusion directive=lcd.h <US><UE> <DS><DE> <IS>Z:\msee\embeddedc\ex10.1\lcd.h<IE>  [multi-include guarded] Extent=<ES>4:1 - 4:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:9:9: macro definition=lcd_h <US>c:macro@lcd_h<UE> <DS>lcd_h<DE> Extent=<ES>9:9 - 9:14<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:12:9: macro definition=LCD_COLOR_WHITE <US>c:macro@LCD_COLOR_WHITE<UE> <DS>LCD_COLOR_WHITE<DE> Extent=<ES>12:9 - 12:33<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:13:9: macro definition=LCD_COLOR_BLACK <US>c:macro@LCD_COLOR_BLACK<UE> <DS>LCD_COLOR_BLACK<DE> Extent=<ES>13:9 - 13:33<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:15:9: macro definition=LCD_COLOR_RED <US>c:macro@LCD_COLOR_RED<UE> <DS>LCD_COLOR_RED<DE> Extent=<ES>15:9 - 15:33<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:16:9: macro definition=LCD_COLOR_GREEN <US>c:macro@LCD_COLOR_GREEN<UE> <DS>LCD_COLOR_GREEN<DE> Extent=<ES>16:9 - 16:33<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:17:9: macro definition=LCD_COLOR_BLUE <US>c:macro@LCD_COLOR_BLUE<UE> <DS>LCD_COLOR_BLUE<DE> Extent=<ES>17:9 - 17:33<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:19:9: macro definition=LCD_COLOR_CYAN <US>c:macro@LCD_COLOR_CYAN<UE> <DS>LCD_COLOR_CYAN<DE> Extent=<ES>19:9 - 19:32<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:20:9: macro definition=LCD_COLOR_MAGENTA <US>c:macro@LCD_COLOR_MAGENTA<UE> <DS>LCD_COLOR_MAGENTA<DE> Extent=<ES>20:9 - 20:32<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:21:9: macro definition=LCD_COLOR_YELLOW <US>c:macro@LCD_COLOR_YELLOW<UE> <DS>LCD_COLOR_YELLOW<DE> Extent=<ES>21:9 - 21:32<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:23:9: macro definition=LCD_COLOR_BROWN <US>c:macro@LCD_COLOR_BROWN<UE> <DS>LCD_COLOR_BROWN<DE> Extent=<ES>23:9 - 23:32<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:24:9: macro definition=LCD_COLOR_ORANGE <US>c:macro@LCD_COLOR_ORANGE<UE> <DS>LCD_COLOR_ORANGE<DE> Extent=<ES>24:9 - 24:32<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:25:9: macro definition=LCD_COLOR_PINK <US>c:macro@LCD_COLOR_PINK<UE> <DS>LCD_COLOR_PINK<DE> Extent=<ES>25:9 - 25:31<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:110:2: inclusion directive=lcd_ge8.h <US><UE> <DS><DE> <IS>Z:\msee\embeddedc\ex10.1\lcd_ge8.h<IE>  [multi-include guarded] Extent=<ES>110:2 - 110:22<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:9:9: macro definition=lcd_ge8_h <US>c:macro@lcd_ge8_h<UE> <DS>lcd_ge8_h<DE> Extent=<ES>9:9 - 9:18<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:13:9: macro definition=LCD_GE8_COMMAND_DISON <US>c:macro@LCD_GE8_COMMAND_DISON<UE> <DS>LCD_GE8_COMMAND_DISON<DE> Extent=<ES>13:9 - 13:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:14:9: macro definition=LCD_GE8_COMMAND_DISOFF <US>c:macro@LCD_GE8_COMMAND_DISOFF<UE> <DS>LCD_GE8_COMMAND_DISOFF<DE> Extent=<ES>14:9 - 14:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:15:9: macro definition=LCD_GE8_COMMAND_DISNOR <US>c:macro@LCD_GE8_COMMAND_DISNOR<UE> <DS>LCD_GE8_COMMAND_DISNOR<DE> Extent=<ES>15:9 - 15:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:16:9: macro definition=LCD_GE8_COMMAND_DISINV <US>c:macro@LCD_GE8_COMMAND_DISINV<UE> <DS>LCD_GE8_COMMAND_DISINV<DE> Extent=<ES>16:9 - 16:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:17:9: macro definition=LCD_GE8_COMMAND_COMSCN <US>c:macro@LCD_GE8_COMMAND_COMSCN<UE> <DS>LCD_GE8_COMMAND_COMSCN<DE> Extent=<ES>17:9 - 17:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:18:9: macro definition=LCD_GE8_COMMAND_DISCTL <US>c:macro@LCD_GE8_COMMAND_DISCTL<UE> <DS>LCD_GE8_COMMAND_DISCTL<DE> Extent=<ES>18:9 - 18:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:19:9: macro definition=LCD_GE8_COMMAND_SLPIN <US>c:macro@LCD_GE8_COMMAND_SLPIN<UE> <DS>LCD_GE8_COMMAND_SLPIN<DE> Extent=<ES>19:9 - 19:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:20:9: macro definition=LCD_GE8_COMMAND_SLPOUT <US>c:macro@LCD_GE8_COMMAND_SLPOUT<UE> <DS>LCD_GE8_COMMAND_SLPOUT<DE> Extent=<ES>20:9 - 20:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:21:9: macro definition=LCD_GE8_COMMAND_PASET <US>c:macro@LCD_GE8_COMMAND_PASET<UE> <DS>LCD_GE8_COMMAND_PASET<DE> Extent=<ES>21:9 - 21:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:22:9: macro definition=LCD_GE8_COMMAND_CASET <US>c:macro@LCD_GE8_COMMAND_CASET<UE> <DS>LCD_GE8_COMMAND_CASET<DE> Extent=<ES>22:9 - 22:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:23:9: macro definition=LCD_GE8_COMMAND_DATCTL <US>c:macro@LCD_GE8_COMMAND_DATCTL<UE> <DS>LCD_GE8_COMMAND_DATCTL<DE> Extent=<ES>23:9 - 23:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:24:9: macro definition=LCD_GE8_COMMAND_RGBSET8 <US>c:macro@LCD_GE8_COMMAND_RGBSET8<UE> <DS>LCD_GE8_COMMAND_RGBSET8<DE> Extent=<ES>24:9 - 24:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:25:9: macro definition=LCD_GE8_COMMAND_RAMWR <US>c:macro@LCD_GE8_COMMAND_RAMWR<UE> <DS>LCD_GE8_COMMAND_RAMWR<DE> Extent=<ES>25:9 - 25:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:26:9: macro definition=LCD_GE8_COMMAND_RAMRD <US>c:macro@LCD_GE8_COMMAND_RAMRD<UE> <DS>LCD_GE8_COMMAND_RAMRD<DE> Extent=<ES>26:9 - 26:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:27:9: macro definition=LCD_GE8_COMMAND_PTLIN <US>c:macro@LCD_GE8_COMMAND_PTLIN<UE> <DS>LCD_GE8_COMMAND_PTLIN<DE> Extent=<ES>27:9 - 27:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:28:9: macro definition=LCD_GE8_COMMAND_PTLOUT <US>c:macro@LCD_GE8_COMMAND_PTLOUT<UE> <DS>LCD_GE8_COMMAND_PTLOUT<DE> Extent=<ES>28:9 - 28:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:29:9: macro definition=LCD_GE8_COMMAND_RMWIN <US>c:macro@LCD_GE8_COMMAND_RMWIN<UE> <DS>LCD_GE8_COMMAND_RMWIN<DE> Extent=<ES>29:9 - 29:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:30:9: macro definition=LCD_GE8_COMMAND_RMWOUT <US>c:macro@LCD_GE8_COMMAND_RMWOUT<UE> <DS>LCD_GE8_COMMAND_RMWOUT<DE> Extent=<ES>30:9 - 30:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:31:9: macro definition=LCD_GE8_COMMAND_ASCSET <US>c:macro@LCD_GE8_COMMAND_ASCSET<UE> <DS>LCD_GE8_COMMAND_ASCSET<DE> Extent=<ES>31:9 - 31:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:32:9: macro definition=LCD_GE8_COMMAND_SCSTART <US>c:macro@LCD_GE8_COMMAND_SCSTART<UE> <DS>LCD_GE8_COMMAND_SCSTART<DE> Extent=<ES>32:9 - 32:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:33:9: macro definition=LCD_GE8_COMMAND_OSCON <US>c:macro@LCD_GE8_COMMAND_OSCON<UE> <DS>LCD_GE8_COMMAND_OSCON<DE> Extent=<ES>33:9 - 33:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:34:9: macro definition=LCD_GE8_COMMAND_PWRCTR <US>c:macro@LCD_GE8_COMMAND_PWRCTR<UE> <DS>LCD_GE8_COMMAND_PWRCTR<DE> Extent=<ES>34:9 - 34:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:35:9: macro definition=LCD_GE8_COMMAND_VOLCTR <US>c:macro@LCD_GE8_COMMAND_VOLCTR<UE> <DS>LCD_GE8_COMMAND_VOLCTR<DE> Extent=<ES>35:9 - 35:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:36:9: macro definition=LCD_GE8_COMMAND_VOLUP <US>c:macro@LCD_GE8_COMMAND_VOLUP<UE> <DS>LCD_GE8_COMMAND_VOLUP<DE> Extent=<ES>36:9 - 36:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:37:9: macro definition=LCD_GE8_COMMAND_VOLDOWN <US>c:macro@LCD_GE8_COMMAND_VOLDOWN<UE> <DS>LCD_GE8_COMMAND_VOLDOWN<DE> Extent=<ES>37:9 - 37:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:38:9: macro definition=LCD_GE8_COMMAND_TMPGRD <US>c:macro@LCD_GE8_COMMAND_TMPGRD<UE> <DS>LCD_GE8_COMMAND_TMPGRD<DE> Extent=<ES>38:9 - 38:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:39:9: macro definition=LCD_GE8_COMMAND_EPCTIN <US>c:macro@LCD_GE8_COMMAND_EPCTIN<UE> <DS>LCD_GE8_COMMAND_EPCTIN<DE> Extent=<ES>39:9 - 39:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:40:9: macro definition=LCD_GE8_COMMAND_EPCOUT <US>c:macro@LCD_GE8_COMMAND_EPCOUT<UE> <DS>LCD_GE8_COMMAND_EPCOUT<DE> Extent=<ES>40:9 - 40:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:41:9: macro definition=LCD_GE8_COMMAND_EPMWR <US>c:macro@LCD_GE8_COMMAND_EPMWR<UE> <DS>LCD_GE8_COMMAND_EPMWR<DE> Extent=<ES>41:9 - 41:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:42:9: macro definition=LCD_GE8_COMMAND_EPMRD <US>c:macro@LCD_GE8_COMMAND_EPMRD<UE> <DS>LCD_GE8_COMMAND_EPMRD<DE> Extent=<ES>42:9 - 42:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:43:9: macro definition=LCD_GE8_COMMAND_EPSRRD1 <US>c:macro@LCD_GE8_COMMAND_EPSRRD1<UE> <DS>LCD_GE8_COMMAND_EPSRRD1<DE> Extent=<ES>43:9 - 43:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:44:9: macro definition=LCD_GE8_COMMAND_EPSRRD2 <US>c:macro@LCD_GE8_COMMAND_EPSRRD2<UE> <DS>LCD_GE8_COMMAND_EPSRRD2<DE> Extent=<ES>44:9 - 44:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:45:9: macro definition=LCD_GE8_COMMAND_NOP <US>c:macro@LCD_GE8_COMMAND_NOP<UE> <DS>LCD_GE8_COMMAND_NOP<DE> Extent=<ES>45:9 - 45:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:113:10: macro definition=LCD_COMMAND_NOP <US>c:macro@LCD_COMMAND_NOP<UE> <DS>LCD_COMMAND_NOP<DE> Extent=<ES>113:10 - 113:47<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:114:10: macro definition=LCD_COMMAND_DISPLAY_ON <US>c:macro@LCD_COMMAND_DISPLAY_ON<UE> <DS>LCD_COMMAND_DISPLAY_ON<DE> Extent=<ES>114:10 - 114:55<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:115:10: macro definition=LCD_COMMAND_DISPLAY_OFF <US>c:macro@LCD_COMMAND_DISPLAY_OFF<UE> <DS>LCD_COMMAND_DISPLAY_OFF<DE> Extent=<ES>115:10 - 115:57<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:116:10: macro definition=LCD_COMMAND_PAGEADDRSET <US>c:macro@LCD_COMMAND_PAGEADDRSET<UE> <DS>LCD_COMMAND_PAGEADDRSET<DE> Extent=<ES>116:10 - 116:56<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:117:10: macro definition=LCD_COMMAND_COLUMNADDRSET <US>c:macro@LCD_COMMAND_COLUMNADDRSET<UE> <DS>LCD_COMMAND_COLUMNADDRSET<DE> Extent=<ES>117:10 - 117:57<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:118:10: macro definition=LCD_COMMAND_MEMWRITE <US>c:macro@LCD_COMMAND_MEMWRITE<UE> <DS>LCD_COMMAND_MEMWRITE<DE> Extent=<ES>118:10 - 118:53<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:122:9: macro definition=LCD_BACKLIGHT_ON <US>c:macro@LCD_BACKLIGHT_ON<UE> <DS>LCD_BACKLIGHT_ON<DE> Extent=<ES>122:9 - 122:33<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:123:9: macro definition=LCD_BACKLIGHT_OFF <US>c:macro@LCD_BACKLIGHT_OFF<UE> <DS>LCD_BACKLIGHT_OFF<DE> Extent=<ES>123:9 - 123:33<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:180:11: macro definition=DISON <US>c:macro@DISON<UE> <DS>DISON<DE> Extent=<ES>180:11 - 180:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:181:11: macro definition=DISOFF <US>c:macro@DISOFF<UE> <DS>DISOFF<DE> Extent=<ES>181:11 - 181:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:182:11: macro definition=DISNOR <US>c:macro@DISNOR<UE> <DS>DISNOR<DE> Extent=<ES>182:11 - 182:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:183:11: macro definition=DISINV <US>c:macro@DISINV<UE> <DS>DISINV<DE> Extent=<ES>183:11 - 183:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:184:11: macro definition=COMSCN <US>c:macro@COMSCN<UE> <DS>COMSCN<DE> Extent=<ES>184:11 - 184:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:185:11: macro definition=DISCTL <US>c:macro@DISCTL<UE> <DS>DISCTL<DE> Extent=<ES>185:11 - 185:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:187:11: macro definition=SLPIN <US>c:macro@SLPIN<UE> <DS>SLPIN<DE> Extent=<ES>187:11 - 187:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:188:11: macro definition=SLPOUT <US>c:macro@SLPOUT<UE> <DS>SLPOUT<DE> Extent=<ES>188:11 - 188:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:189:11: macro definition=PASET <US>c:macro@PASET<UE> <DS>PASET<DE> Extent=<ES>189:11 - 189:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:190:11: macro definition=CASET <US>c:macro@CASET<UE> <DS>CASET<DE> Extent=<ES>190:11 - 190:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:191:11: macro definition=DATCTL <US>c:macro@DATCTL<UE> <DS>DATCTL<DE> Extent=<ES>191:11 - 191:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:192:11: macro definition=RGBSET8 <US>c:macro@RGBSET8<UE> <DS>RGBSET8<DE> Extent=<ES>192:11 - 192:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:193:11: macro definition=RAMWR <US>c:macro@RAMWR<UE> <DS>RAMWR<DE> Extent=<ES>193:11 - 193:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:194:11: macro definition=RAMRD <US>c:macro@RAMRD<UE> <DS>RAMRD<DE> Extent=<ES>194:11 - 194:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:195:11: macro definition=PTLIN <US>c:macro@PTLIN<UE> <DS>PTLIN<DE> Extent=<ES>195:11 - 195:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:196:11: macro definition=PTLOUT <US>c:macro@PTLOUT<UE> <DS>PTLOUT<DE> Extent=<ES>196:11 - 196:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:197:11: macro definition=RMWIN <US>c:macro@RMWIN<UE> <DS>RMWIN<DE> Extent=<ES>197:11 - 197:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:198:11: macro definition=RMWOUT <US>c:macro@RMWOUT<UE> <DS>RMWOUT<DE> Extent=<ES>198:11 - 198:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:199:11: macro definition=ASCSET <US>c:macro@ASCSET<UE> <DS>ASCSET<DE> Extent=<ES>199:11 - 199:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:200:11: macro definition=SCSTART <US>c:macro@SCSTART<UE> <DS>SCSTART<DE> Extent=<ES>200:11 - 200:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:201:11: macro definition=OSCON <US>c:macro@OSCON<UE> <DS>OSCON<DE> Extent=<ES>201:11 - 201:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:203:11: macro definition=PWRCTR <US>c:macro@PWRCTR<UE> <DS>PWRCTR<DE> Extent=<ES>203:11 - 203:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:204:11: macro definition=VOLCTR <US>c:macro@VOLCTR<UE> <DS>VOLCTR<DE> Extent=<ES>204:11 - 204:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:205:11: macro definition=VOLUP <US>c:macro@VOLUP<UE> <DS>VOLUP<DE> Extent=<ES>205:11 - 205:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:206:11: macro definition=VOLDOWN <US>c:macro@VOLDOWN<UE> <DS>VOLDOWN<DE> Extent=<ES>206:11 - 206:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:207:11: macro definition=TMPGRD <US>c:macro@TMPGRD<UE> <DS>TMPGRD<DE> Extent=<ES>207:11 - 207:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:208:11: macro definition=EPCTIN <US>c:macro@EPCTIN<UE> <DS>EPCTIN<DE> Extent=<ES>208:11 - 208:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:209:11: macro definition=EPCOUT <US>c:macro@EPCOUT<UE> <DS>EPCOUT<DE> Extent=<ES>209:11 - 209:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:210:11: macro definition=EPMWR <US>c:macro@EPMWR<UE> <DS>EPMWR<DE> Extent=<ES>210:11 - 210:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:211:11: macro definition=EPMRD <US>c:macro@EPMRD<UE> <DS>EPMRD<DE> Extent=<ES>211:11 - 211:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:212:11: macro definition=EPSRRD1 <US>c:macro@EPSRRD1<UE> <DS>EPSRRD1<DE> Extent=<ES>212:11 - 212:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:213:11: macro definition=EPSRRD2 <US>c:macro@EPSRRD2<UE> <DS>EPSRRD2<DE> Extent=<ES>213:11 - 213:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:214:11: macro definition=NOP <US>c:macro@NOP<UE> <DS>NOP<DE> Extent=<ES>214:11 - 214:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:389:9: macro definition=FONT_WIDTH <US>c:macro@FONT_WIDTH<UE> <DS>FONT_WIDTH<DE> Extent=<ES>389:9 - 389:22<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:390:9: macro definition=FONT_HEIGHT <US>c:macro@FONT_HEIGHT<UE> <DS>FONT_HEIGHT<DE> Extent=<ES>390:9 - 390:23<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:29: macro expansion=LCD_COLOR_WHITE|Z:\msee\embeddedc\ex10.1\lcd.h:12:9 <US>c:macro@LCD_COLOR_WHITE<UE> <DS>LCD_COLOR_WHITE<DE> Extent=<ES>7:29 - 7:44<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:46: macro expansion=LCD_COLOR_RED|Z:\msee\embeddedc\ex10.1\lcd.h:15:9 <US>c:macro@LCD_COLOR_RED<UE> <DS>LCD_COLOR_RED<DE> Extent=<ES>7:46 - 7:59<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:61: macro expansion=LCD_COLOR_GREEN|Z:\msee\embeddedc\ex10.1\lcd.h:16:9 <US>c:macro@LCD_COLOR_GREEN<UE> <DS>LCD_COLOR_GREEN<DE> Extent=<ES>7:61 - 7:76<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:78: macro expansion=LCD_COLOR_BLUE|Z:\msee\embeddedc\ex10.1\lcd.h:17:9 <US>c:macro@LCD_COLOR_BLUE<UE> <DS>LCD_COLOR_BLUE<DE> Extent=<ES>7:78 - 7:92<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:94: macro expansion=LCD_COLOR_BLACK|Z:\msee\embeddedc\ex10.1\lcd.h:13:9 <US>c:macro@LCD_COLOR_BLACK<UE> <DS>LCD_COLOR_BLACK<DE> Extent=<ES>7:94 - 7:109<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:12:12: macro expansion=WDTPW|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:2300:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>12:12 - 12:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:12:20: macro expansion=WDTHOLD|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:2298:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>12:20 - 12:27<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:16:13: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:87:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>16:13 - 16:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:30:13: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:87:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>30:13 - 30:17<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -2835,43 +2931,147 @@
 <L>Z:\msee\embeddedc\ex10.1\timer.h:2:5: FunctionDecl=resetInterruptCounter|Z:\msee\embeddedc\ex10.1\timer.h:2:5 (Declaration) <US>c:@F@resetInterruptCounter<UE> <DS>int resetInterruptCounter(void)<DE> Extent=<ES>2:1 - 2:28<EE>
 <L>Z:\msee\embeddedc\ex10.1\timer.h:4:6: FunctionDecl=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:4:6 (Declaration) <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>4:1 - 4:33<EE>
 <L>Z:\msee\embeddedc\ex10.1\timer.h:6:6: FunctionDecl=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:6:6 (Declaration) <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>6:1 - 6:27<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:5:6: FunctionDecl=main|Z:\msee\embeddedc\ex10.1\main.c:5:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>5:1 - 23:2<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:6:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>6:1 - 23:2<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:9:3: CallExpr=XT2_Init|Z:\msee\embeddedc\ex10.1\system.h:33:6 <US>c:@F@XT2_Init<UE> <DS>void XT2_Init(void)<DE> Extent=<ES>9:3 - 9:14<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:9:3: UnexposedExpr=XT2_Init|Z:\msee\embeddedc\ex10.1\system.h:33:6 <US>c:@F@XT2_Init<UE> <DS>void XT2_Init(void)<DE> Extent=<ES>9:3 - 9:11<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:9:3: DeclRefExpr=XT2_Init|Z:\msee\embeddedc\ex10.1\system.h:33:6 (Reference) <US>c:@F@XT2_Init<UE> <DS>void XT2_Init(void)<DE> Extent=<ES>9:3 - 9:11<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:10:3: CallExpr=GPIO_Init|Z:\msee\embeddedc\ex10.1\system.h:39:6 <US>c:@F@GPIO_Init<UE> <DS>void GPIO_Init(void)<DE> Extent=<ES>10:3 - 10:15<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:10:3: UnexposedExpr=GPIO_Init|Z:\msee\embeddedc\ex10.1\system.h:39:6 <US>c:@F@GPIO_Init<UE> <DS>void GPIO_Init(void)<DE> Extent=<ES>10:3 - 10:12<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:10:3: DeclRefExpr=GPIO_Init|Z:\msee\embeddedc\ex10.1\system.h:39:6 (Reference) <US>c:@F@GPIO_Init<UE> <DS>void GPIO_Init(void)<DE> Extent=<ES>10:3 - 10:12<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:11:3: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>11:3 - 11:17<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:11:3: MemberRefExpr=P10DIR|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1678:39 (Reference) <US>c:msp430fg4619.h@83412@Ua@Sa@FI@P10DIR<UE> <DS>P10DIR<DE> Extent=<ES>11:3 - 11:9<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:11:3: MemberRefExpr=|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1675:3 (Reference) <US><UE> <DS><DE> Extent=<ES>11:3 - 11:9<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:11:3: DeclRefExpr=|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1673:11 (Reference) <US><UE> <DS><DE> Extent=<ES>11:3 - 11:9<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:11:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>11:13 - 11:17<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:11:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>11:13 - 11:17<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:13:3: CallExpr=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:4:6 <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>13:3 - 13:30<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:13:3: UnexposedExpr=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:4:6 <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>13:3 - 13:28<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:13:3: DeclRefExpr=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:4:6 (Reference) <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>13:3 - 13:28<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:14:3: CallExpr=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:6:6 <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>14:3 - 14:24<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:14:3: UnexposedExpr=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:6:6 <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>14:3 - 14:22<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:14:3: DeclRefExpr=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:6:6 (Reference) <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>14:3 - 14:22<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:15:3: CallExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>15:3 - 15:23<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:15:3: UnexposedExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>15:3 - 15:21<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:15:3: DeclRefExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>15:3 - 15:21<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:17:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>17:3 - 22:4<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:17:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:9 - 17:10<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:17:12: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>17:12 - 22:4<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:18:2: IfStmt= <US><UE> <DS><DE> Extent=<ES>18:2 - 21:3<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:18:6: CallExpr=testInterrupt|Z:\msee\embeddedc\ex10.1\timer.h:1:5 <US>c:@F@testInterrupt<UE> <DS>int testInterrupt(void)<DE> Extent=<ES>18:6 - 18:21<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:18:6: UnexposedExpr=testInterrupt|Z:\msee\embeddedc\ex10.1\timer.h:1:5 <US>c:@F@testInterrupt<UE> <DS>int testInterrupt(void)<DE> Extent=<ES>18:6 - 18:19<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:18:6: DeclRefExpr=testInterrupt|Z:\msee\embeddedc\ex10.1\timer.h:1:5 (Reference) <US>c:@F@testInterrupt<UE> <DS>int testInterrupt(void)<DE> Extent=<ES>18:6 - 18:19<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:18:22: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>18:22 - 21:3<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:19:3: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>19:3 - 19:17<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:19:3: MemberRefExpr=P10OUT|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1662:39 (Reference) <US>c:msp430fg4619.h@83045@Ua@Sa@FI@P10OUT<UE> <DS>P10OUT<DE> Extent=<ES>19:3 - 19:9<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:19:3: MemberRefExpr=|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1659:3 (Reference) <US><UE> <DS><DE> Extent=<ES>19:3 - 19:9<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:19:3: DeclRefExpr=|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1657:11 (Reference) <US><UE> <DS><DE> Extent=<ES>19:3 - 19:9<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:19:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>19:13 - 19:17<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:19:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>19:13 - 19:17<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:20:3: CallExpr=resetInterruptCounter|Z:\msee\embeddedc\ex10.1\timer.h:2:5 <US>c:@F@resetInterruptCounter<UE> <DS>int resetInterruptCounter(void)<DE> Extent=<ES>20:3 - 20:26<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:20:3: UnexposedExpr=resetInterruptCounter|Z:\msee\embeddedc\ex10.1\timer.h:2:5 <US>c:@F@resetInterruptCounter<UE> <DS>int resetInterruptCounter(void)<DE> Extent=<ES>20:3 - 20:24<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:20:3: DeclRefExpr=resetInterruptCounter|Z:\msee\embeddedc\ex10.1\timer.h:2:5 (Reference) <US>c:@F@resetInterruptCounter<UE> <DS>int resetInterruptCounter(void)<DE> Extent=<ES>20:3 - 20:24<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:55:6: FunctionDecl=LCD_GE8_Settings|Z:\msee\embeddedc\ex10.1\lcd_ge8.h:55:6 (Declaration) <US>c:@F@LCD_GE8_Settings<UE> <DS>void LCD_GE8_Settings(void)<DE> Extent=<ES>55:1 - 55:29<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:62:13: FunctionDecl=LCD_WriteSPICommand|Z:\msee\embeddedc\ex10.1\lcd_ge8.h:62:13 (Declaration) <US>c:@F@LCD_WriteSPICommand<UE> <DS>void LCD_WriteSPICommand(unsigned char)<DE> Extent=<ES>62:1 - 62:54<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:62:48: ParmDecl=data8|Z:\msee\embeddedc\ex10.1\lcd_ge8.h:62:48 (Definition) <US>c:lcd_ge8.h@3761@F@LCD_WriteSPICommand@data8<UE> <DS>unsigned char<DE> Extent=<ES>62:34 - 62:53<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:68:13: FunctionDecl=LCD_WriteSPIData|Z:\msee\embeddedc\ex10.1\lcd_ge8.h:68:13 (Declaration) <US>c:@F@LCD_WriteSPIData<UE> <DS>void LCD_WriteSPIData(unsigned char)<DE> Extent=<ES>68:1 - 68:51<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:68:45: ParmDecl=data8|Z:\msee\embeddedc\ex10.1\lcd_ge8.h:68:45 (Definition) <US>c:lcd_ge8.h@4136@F@LCD_WriteSPIData@data8<UE> <DS>unsigned char<DE> Extent=<ES>68:31 - 68:50<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:75:13: FunctionDecl=LCD_WriteSPILongData|Z:\msee\embeddedc\ex10.1\lcd_ge8.h:75:13 (Declaration) <US>c:@F@LCD_WriteSPILongData<UE> <DS>void LCD_WriteSPILongData(unsigned int)<DE> Extent=<ES>75:1 - 75:55<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd_ge8.h:75:48: ParmDecl=data16|Z:\msee\embeddedc\ex10.1\lcd_ge8.h:75:48 (Definition) <US>c:lcd_ge8.h@4565@F@LCD_WriteSPILongData@data16<UE> <DS>unsigned int<DE> Extent=<ES>75:35 - 75:54<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:224:6: FunctionDecl=LCD_InitSPI|Z:\msee\embeddedc\ex10.1\lcd.h:224:6 (Declaration) <US>c:@F@LCD_InitSPI<UE> <DS>void LCD_InitSPI(void)<DE> Extent=<ES>224:1 - 224:24<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:231:6: FunctionDecl=LCD_Settings|Z:\msee\embeddedc\ex10.1\lcd.h:231:6 (Declaration) <US>c:@F@LCD_Settings<UE> <DS>void LCD_Settings(void)<DE> Extent=<ES>231:1 - 231:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:240:6: FunctionDecl=LCD_WriteSPICommand|Z:\msee\embeddedc\ex10.1\lcd.h:240:6 (Declaration) <US>c:@F@LCD_WriteSPICommand<UE> <DS>void LCD_WriteSPICommand(unsigned char)<DE> Extent=<ES>240:1 - 240:47<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:240:41: ParmDecl=data8|Z:\msee\embeddedc\ex10.1\lcd.h:240:41 (Definition) <US>c:lcd.h@11424@F@LCD_WriteSPICommand@data8<UE> <DS>unsigned char<DE> Extent=<ES>240:27 - 240:46<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:249:6: FunctionDecl=LCD_WriteSPIData|Z:\msee\embeddedc\ex10.1\lcd.h:249:6 (Declaration) <US>c:@F@LCD_WriteSPIData<UE> <DS>void LCD_WriteSPIData(unsigned char)<DE> Extent=<ES>249:1 - 249:44<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:249:38: ParmDecl=data8|Z:\msee\embeddedc\ex10.1\lcd.h:249:38 (Definition) <US>c:lcd.h@11954@F@LCD_WriteSPIData@data8<UE> <DS>unsigned char<DE> Extent=<ES>249:24 - 249:43<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:259:6: FunctionDecl=LCD_WriteSPIRGBData|Z:\msee\embeddedc\ex10.1\lcd.h:259:6 (Declaration) <US>c:@F@LCD_WriteSPIRGBData<UE> <DS>void LCD_WriteSPIRGBData(unsigned int)<DE> Extent=<ES>259:1 - 259:47<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:259:40: ParmDecl=data12|Z:\msee\embeddedc\ex10.1\lcd.h:259:40 (Definition) <US>c:lcd.h@12567@F@LCD_WriteSPIRGBData@data12<UE> <DS>unsigned int<DE> Extent=<ES>259:27 - 259:46<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:266:6: FunctionDecl=LCD_InitSPI|Z:\msee\embeddedc\ex10.1\lcd.h:266:6 (Declaration) <US>c:@F@LCD_InitSPI<UE> <DS>void LCD_InitSPI(void)<DE> Extent=<ES>266:1 - 266:24<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:276:6: FunctionDecl=LCD_Backlight|Z:\msee\embeddedc\ex10.1\lcd.h:276:6 (Declaration) <US>c:@F@LCD_Backlight<UE> <DS>void LCD_Backlight(unsigned char)<DE> Extent=<ES>276:1 - 276:42<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:276:35: ParmDecl=on_off|Z:\msee\embeddedc\ex10.1\lcd.h:276:35 (Definition) <US>c:lcd.h@13524@F@LCD_Backlight@on_off<UE> <DS>unsigned char<DE> Extent=<ES>276:21 - 276:41<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:288:6: FunctionDecl=LCD_SetDrawingArea|Z:\msee\embeddedc\ex10.1\lcd.h:288:6 (Declaration) <US>c:@F@LCD_SetDrawingArea<UE> <DS>void LCD_SetDrawingArea(unsigned int, unsigned int, unsigned int, unsigned int)<DE> Extent=<ES>288:1 - 289:45<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:288:39: ParmDecl=start_x|Z:\msee\embeddedc\ex10.1\lcd.h:288:39 (Definition) <US>c:lcd.h@14297@F@LCD_SetDrawingArea@start_x<UE> <DS>unsigned int<DE> Extent=<ES>288:26 - 288:46<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:288:61: ParmDecl=end_x|Z:\msee\embeddedc\ex10.1\lcd.h:288:61 (Definition) <US>c:lcd.h@14319@F@LCD_SetDrawingArea@end_x<UE> <DS>unsigned int<DE> Extent=<ES>288:48 - 288:66<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:289:17: ParmDecl=start_y|Z:\msee\embeddedc\ex10.1\lcd.h:289:17 (Definition) <US>c:lcd.h@14344@F@LCD_SetDrawingArea@start_y<UE> <DS>unsigned int<DE> Extent=<ES>289:4 - 289:24<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:289:39: ParmDecl=end_y|Z:\msee\embeddedc\ex10.1\lcd.h:289:39 (Definition) <US>c:lcd.h@14366@F@LCD_SetDrawingArea@end_y<UE> <DS>unsigned int<DE> Extent=<ES>289:26 - 289:44<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:302:6: FunctionDecl=LCD_FillArea|Z:\msee\embeddedc\ex10.1\lcd.h:302:6 (Declaration) <US>c:@F@LCD_FillArea<UE> <DS>void LCD_FillArea(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)<DE> Extent=<ES>302:1 - 304:44<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:302:33: ParmDecl=start_x|Z:\msee\embeddedc\ex10.1\lcd.h:302:33 (Definition) <US>c:lcd.h@15211@F@LCD_FillArea@start_x<UE> <DS>unsigned int<DE> Extent=<ES>302:20 - 302:40<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:302:55: ParmDecl=end_x|Z:\msee\embeddedc\ex10.1\lcd.h:302:55 (Definition) <US>c:lcd.h@15233@F@LCD_FillArea@end_x<UE> <DS>unsigned int<DE> Extent=<ES>302:42 - 302:60<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:303:17: ParmDecl=start_y|Z:\msee\embeddedc\ex10.1\lcd.h:303:17 (Definition) <US>c:lcd.h@15258@F@LCD_FillArea@start_y<UE> <DS>unsigned int<DE> Extent=<ES>303:4 - 303:24<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:303:39: ParmDecl=end_y|Z:\msee\embeddedc\ex10.1\lcd.h:303:39 (Definition) <US>c:lcd.h@15280@F@LCD_FillArea@end_y<UE> <DS>unsigned int<DE> Extent=<ES>303:26 - 303:44<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:304:38: ParmDecl=color|Z:\msee\embeddedc\ex10.1\lcd.h:304:38 (Definition) <US>c:lcd.h@15325@F@LCD_FillArea@color<UE> <DS>unsigned int<DE> Extent=<ES>304:25 - 304:43<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:312:6: FunctionDecl=LCD_Clear|Z:\msee\embeddedc\ex10.1\lcd.h:312:6 (Declaration) <US>c:@F@LCD_Clear<UE> <DS>void LCD_Clear(void)<DE> Extent=<ES>312:1 - 312:22<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:324:6: FunctionDecl=LCD_DrawVertLine|Z:\msee\embeddedc\ex10.1\lcd.h:324:6 (Declaration) <US>c:@F@LCD_DrawVertLine<UE> <DS>void LCD_DrawVertLine(unsigned int, unsigned int, unsigned int, unsigned int)<DE> Extent=<ES>324:1 - 325:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:324:37: ParmDecl=start_x|Z:\msee\embeddedc\ex10.1\lcd.h:324:37 (Definition) <US>c:lcd.h@16522@F@LCD_DrawVertLine@start_x<UE> <DS>unsigned int<DE> Extent=<ES>324:24 - 324:44<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:324:59: ParmDecl=end_x|Z:\msee\embeddedc\ex10.1\lcd.h:324:59 (Definition) <US>c:lcd.h@16544@F@LCD_DrawVertLine@end_x<UE> <DS>unsigned int<DE> Extent=<ES>324:46 - 324:64<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:325:17: ParmDecl=y|Z:\msee\embeddedc\ex10.1\lcd.h:325:17 (Definition) <US>c:lcd.h@16569@F@LCD_DrawVertLine@y<UE> <DS>unsigned int<DE> Extent=<ES>325:4 - 325:18<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:325:33: ParmDecl=color|Z:\msee\embeddedc\ex10.1\lcd.h:325:33 (Definition) <US>c:lcd.h@16585@F@LCD_DrawVertLine@color<UE> <DS>unsigned int<DE> Extent=<ES>325:20 - 325:38<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:337:6: FunctionDecl=LCD_DrawHorLine|Z:\msee\embeddedc\ex10.1\lcd.h:337:6 (Declaration) <US>c:@F@LCD_DrawHorLine<UE> <DS>void LCD_DrawHorLine(unsigned int, unsigned int, unsigned int, unsigned int)<DE> Extent=<ES>337:1 - 338:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:337:36: ParmDecl=start_y|Z:\msee\embeddedc\ex10.1\lcd.h:337:36 (Definition) <US>c:lcd.h@17353@F@LCD_DrawHorLine@start_y<UE> <DS>unsigned int<DE> Extent=<ES>337:23 - 337:43<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:337:58: ParmDecl=end_y|Z:\msee\embeddedc\ex10.1\lcd.h:337:58 (Definition) <US>c:lcd.h@17375@F@LCD_DrawHorLine@end_y<UE> <DS>unsigned int<DE> Extent=<ES>337:45 - 337:63<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:338:17: ParmDecl=x|Z:\msee\embeddedc\ex10.1\lcd.h:338:17 (Definition) <US>c:lcd.h@17400@F@LCD_DrawHorLine@x<UE> <DS>unsigned int<DE> Extent=<ES>338:4 - 338:18<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:338:33: ParmDecl=color|Z:\msee\embeddedc\ex10.1\lcd.h:338:33 (Definition) <US>c:lcd.h@17416@F@LCD_DrawHorLine@color<UE> <DS>unsigned int<DE> Extent=<ES>338:20 - 338:38<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:351:6: FunctionDecl=LCD_DrawRectangle|Z:\msee\embeddedc\ex10.1\lcd.h:351:6 (Declaration) <US>c:@F@LCD_DrawRectangle<UE> <DS>void LCD_DrawRectangle(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)<DE> Extent=<ES>351:1 - 353:44<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:351:38: ParmDecl=start_x|Z:\msee\embeddedc\ex10.1\lcd.h:351:38 (Definition) <US>c:lcd.h@18266@F@LCD_DrawRectangle@start_x<UE> <DS>unsigned int<DE> Extent=<ES>351:25 - 351:45<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:351:60: ParmDecl=end_x|Z:\msee\embeddedc\ex10.1\lcd.h:351:60 (Definition) <US>c:lcd.h@18288@F@LCD_DrawRectangle@end_x<UE> <DS>unsigned int<DE> Extent=<ES>351:47 - 351:65<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:352:17: ParmDecl=start_y|Z:\msee\embeddedc\ex10.1\lcd.h:352:17 (Definition) <US>c:lcd.h@18313@F@LCD_DrawRectangle@start_y<UE> <DS>unsigned int<DE> Extent=<ES>352:4 - 352:24<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:352:39: ParmDecl=end_y|Z:\msee\embeddedc\ex10.1\lcd.h:352:39 (Definition) <US>c:lcd.h@18335@F@LCD_DrawRectangle@end_y<UE> <DS>unsigned int<DE> Extent=<ES>352:26 - 352:44<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:353:38: ParmDecl=color|Z:\msee\embeddedc\ex10.1\lcd.h:353:38 (Definition) <US>c:lcd.h@18380@F@LCD_DrawRectangle@color<UE> <DS>unsigned int<DE> Extent=<ES>353:25 - 353:43<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:368:6: FunctionDecl=LCD_DrawFilledRectangle|Z:\msee\embeddedc\ex10.1\lcd.h:368:6 (Declaration) <US>c:@F@LCD_DrawFilledRectangle<UE> <DS>void LCD_DrawFilledRectangle(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)<DE> Extent=<ES>368:1 - 370:74<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:368:44: ParmDecl=start_x|Z:\msee\embeddedc\ex10.1\lcd.h:368:44 (Definition) <US>c:lcd.h@19396@F@LCD_DrawFilledRectangle@start_x<UE> <DS>unsigned int<DE> Extent=<ES>368:31 - 368:51<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:368:66: ParmDecl=end_x|Z:\msee\embeddedc\ex10.1\lcd.h:368:66 (Definition) <US>c:lcd.h@19418@F@LCD_DrawFilledRectangle@end_x<UE> <DS>unsigned int<DE> Extent=<ES>368:53 - 368:71<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:369:17: ParmDecl=start_y|Z:\msee\embeddedc\ex10.1\lcd.h:369:17 (Definition) <US>c:lcd.h@19443@F@LCD_DrawFilledRectangle@start_y<UE> <DS>unsigned int<DE> Extent=<ES>369:4 - 369:24<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:369:39: ParmDecl=end_y|Z:\msee\embeddedc\ex10.1\lcd.h:369:39 (Definition) <US>c:lcd.h@19465@F@LCD_DrawFilledRectangle@end_y<UE> <DS>unsigned int<DE> Extent=<ES>369:26 - 369:44<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:370:38: ParmDecl=line_color|Z:\msee\embeddedc\ex10.1\lcd.h:370:38 (Definition) <US>c:lcd.h@19510@F@LCD_DrawFilledRectangle@line_color<UE> <DS>unsigned int<DE> Extent=<ES>370:25 - 370:48<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:370:63: ParmDecl=fill_color|Z:\msee\embeddedc\ex10.1\lcd.h:370:63 (Definition) <US>c:lcd.h@19535@F@LCD_DrawFilledRectangle@fill_color<UE> <DS>unsigned int<DE> Extent=<ES>370:50 - 370:73<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:392:6: FunctionDecl=LCD_WriteChar|Z:\msee\embeddedc\ex10.1\lcd.h:392:6 (Declaration) <US>c:@F@LCD_WriteChar<UE> <DS>void LCD_WriteChar(unsigned char, unsigned char, unsigned char, unsigned short, unsigned short)<DE> Extent=<ES>392:1 - 395:70<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:392:35: ParmDecl=Ascii|Z:\msee\embeddedc\ex10.1\lcd.h:392:35 (Definition) <US>c:lcd.h@20761@F@LCD_WriteChar@Ascii<UE> <DS>unsigned char<DE> Extent=<ES>392:21 - 392:40<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:393:33: ParmDecl=x|Z:\msee\embeddedc\ex10.1\lcd.h:393:33 (Definition) <US>c:lcd.h@20802@F@LCD_WriteChar@x<UE> <DS>unsigned char<DE> Extent=<ES>393:19 - 393:34<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:394:33: ParmDecl=y|Z:\msee\embeddedc\ex10.1\lcd.h:394:33 (Definition) <US>c:lcd.h@20838@F@LCD_WriteChar@y<UE> <DS>unsigned char<DE> Extent=<ES>394:19 - 394:34<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:395:34: ParmDecl=FG_Colour|Z:\msee\embeddedc\ex10.1\lcd.h:395:34 (Definition) <US>c:lcd.h@20874@F@LCD_WriteChar@FG_Colour<UE> <DS>unsigned short<DE> Extent=<ES>395:19 - 395:43<EE>
+<L>Z:\msee\embeddedc\ex10.1\lcd.h:395:60: ParmDecl=BG_Colour|Z:\msee\embeddedc\ex10.1\lcd.h:395:60 (Definition) <US>c:lcd.h@20900@F@LCD_WriteChar@BG_Colour<UE> <DS>unsigned short<DE> Extent=<ES>395:45 - 395:69<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:14: VarDecl=arrColor|Z:\msee\embeddedc\ex10.1\main.c:7:14 (Definition) <US>c:@arrColor<UE> <DS>arrColor<DE> Extent=<ES>7:1 - 7:110<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>7:23 - 7:24<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:28: InitListExpr= <US><UE> <DS><DE> Extent=<ES>7:28 - 7:110<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>7:29 - 7:44<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>7:29 - 7:44<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:46: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>7:46 - 7:59<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:46: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>7:46 - 7:59<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:61: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>7:61 - 7:76<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:61: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>7:61 - 7:76<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:78: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>7:78 - 7:92<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:78: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>7:78 - 7:92<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:94: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>7:94 - 7:109<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:7:94: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>7:94 - 7:109<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:9:6: FunctionDecl=main|Z:\msee\embeddedc\ex10.1\main.c:9:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>9:1 - 34:2<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:10:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>10:1 - 34:2<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:11:2: DeclStmt= <US><UE> <DS><DE> Extent=<ES>11:2 - 11:12<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:11:6: VarDecl=k|Z:\msee\embeddedc\ex10.1\main.c:11:6 (Definition) <US>c:main.c@227@F@main@k<UE> <DS>k<DE> Extent=<ES>11:2 - 11:11<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:11:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>11:10 - 11:11<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:14:3: CallExpr=XT2_Init|Z:\msee\embeddedc\ex10.1\system.h:33:6 <US>c:@F@XT2_Init<UE> <DS>void XT2_Init(void)<DE> Extent=<ES>14:3 - 14:14<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:14:3: UnexposedExpr=XT2_Init|Z:\msee\embeddedc\ex10.1\system.h:33:6 <US>c:@F@XT2_Init<UE> <DS>void XT2_Init(void)<DE> Extent=<ES>14:3 - 14:11<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:14:3: DeclRefExpr=XT2_Init|Z:\msee\embeddedc\ex10.1\system.h:33:6 (Reference) <US>c:@F@XT2_Init<UE> <DS>void XT2_Init(void)<DE> Extent=<ES>14:3 - 14:11<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:15:3: CallExpr=GPIO_Init|Z:\msee\embeddedc\ex10.1\system.h:39:6 <US>c:@F@GPIO_Init<UE> <DS>void GPIO_Init(void)<DE> Extent=<ES>15:3 - 15:15<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:15:3: UnexposedExpr=GPIO_Init|Z:\msee\embeddedc\ex10.1\system.h:39:6 <US>c:@F@GPIO_Init<UE> <DS>void GPIO_Init(void)<DE> Extent=<ES>15:3 - 15:12<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:15:3: DeclRefExpr=GPIO_Init|Z:\msee\embeddedc\ex10.1\system.h:39:6 (Reference) <US>c:@F@GPIO_Init<UE> <DS>void GPIO_Init(void)<DE> Extent=<ES>15:3 - 15:12<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:16:3: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>16:3 - 16:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:16:3: MemberRefExpr=P10DIR|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1678:39 (Reference) <US>c:msp430fg4619.h@83412@Ua@Sa@FI@P10DIR<UE> <DS>P10DIR<DE> Extent=<ES>16:3 - 16:9<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:16:3: MemberRefExpr=|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1675:3 (Reference) <US><UE> <DS><DE> Extent=<ES>16:3 - 16:9<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:16:3: DeclRefExpr=|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1673:11 (Reference) <US><UE> <DS><DE> Extent=<ES>16:3 - 16:9<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:16:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>16:13 - 16:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:16:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>16:13 - 16:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:18:3: CallExpr=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:4:6 <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>18:3 - 18:30<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:18:3: UnexposedExpr=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:4:6 <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>18:3 - 18:28<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:18:3: DeclRefExpr=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:4:6 (Reference) <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>18:3 - 18:28<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:19:3: CallExpr=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:6:6 <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>19:3 - 19:24<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:19:3: UnexposedExpr=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:6:6 <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>19:3 - 19:22<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:19:3: DeclRefExpr=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:6:6 (Reference) <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>19:3 - 19:22<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:20:3: CallExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>20:3 - 20:23<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:20:3: UnexposedExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>20:3 - 20:21<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:20:3: DeclRefExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>20:3 - 20:21<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:22:1: CallExpr=LCD_InitSPI|Z:\msee\embeddedc\ex10.1\lcd.h:266:6 <US>c:@F@LCD_InitSPI<UE> <DS>void LCD_InitSPI(void)<DE> Extent=<ES>22:1 - 22:14<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:22:1: UnexposedExpr=LCD_InitSPI|Z:\msee\embeddedc\ex10.1\lcd.h:266:6 <US>c:@F@LCD_InitSPI<UE> <DS>void LCD_InitSPI(void)<DE> Extent=<ES>22:1 - 22:12<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:22:1: DeclRefExpr=LCD_InitSPI|Z:\msee\embeddedc\ex10.1\lcd.h:266:6 (Reference) <US>c:@F@LCD_InitSPI<UE> <DS>void LCD_InitSPI(void)<DE> Extent=<ES>22:1 - 22:12<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:23:1: CallExpr=LCD_Settings|Z:\msee\embeddedc\ex10.1\lcd.h:231:6 <US>c:@F@LCD_Settings<UE> <DS>void LCD_Settings(void)<DE> Extent=<ES>23:1 - 23:15<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:23:1: UnexposedExpr=LCD_Settings|Z:\msee\embeddedc\ex10.1\lcd.h:231:6 <US>c:@F@LCD_Settings<UE> <DS>void LCD_Settings(void)<DE> Extent=<ES>23:1 - 23:13<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:23:1: DeclRefExpr=LCD_Settings|Z:\msee\embeddedc\ex10.1\lcd.h:231:6 (Reference) <US>c:@F@LCD_Settings<UE> <DS>void LCD_Settings(void)<DE> Extent=<ES>23:1 - 23:13<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:24:1: CallExpr=LCD_Clear|Z:\msee\embeddedc\ex10.1\lcd.h:312:6 <US>c:@F@LCD_Clear<UE> <DS>void LCD_Clear(void)<DE> Extent=<ES>24:1 - 24:12<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:24:1: UnexposedExpr=LCD_Clear|Z:\msee\embeddedc\ex10.1\lcd.h:312:6 <US>c:@F@LCD_Clear<UE> <DS>void LCD_Clear(void)<DE> Extent=<ES>24:1 - 24:10<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:24:1: DeclRefExpr=LCD_Clear|Z:\msee\embeddedc\ex10.1\lcd.h:312:6 (Reference) <US>c:@F@LCD_Clear<UE> <DS>void LCD_Clear(void)<DE> Extent=<ES>24:1 - 24:10<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:26:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>26:3 - 33:4<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:26:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>26:9 - 26:10<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:26:12: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>26:12 - 33:4<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:27:2: IfStmt= <US><UE> <DS><DE> Extent=<ES>27:2 - 32:3<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:27:6: CallExpr=testInterrupt|Z:\msee\embeddedc\ex10.1\timer.h:1:5 <US>c:@F@testInterrupt<UE> <DS>int testInterrupt(void)<DE> Extent=<ES>27:6 - 27:21<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:27:6: UnexposedExpr=testInterrupt|Z:\msee\embeddedc\ex10.1\timer.h:1:5 <US>c:@F@testInterrupt<UE> <DS>int testInterrupt(void)<DE> Extent=<ES>27:6 - 27:19<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:27:6: DeclRefExpr=testInterrupt|Z:\msee\embeddedc\ex10.1\timer.h:1:5 (Reference) <US>c:@F@testInterrupt<UE> <DS>int testInterrupt(void)<DE> Extent=<ES>27:6 - 27:19<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:27:22: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>27:22 - 32:3<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:3: CallExpr=LCD_FillArea|Z:\msee\embeddedc\ex10.1\lcd.h:302:6 <US>c:@F@LCD_FillArea<UE> <DS>void LCD_FillArea(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)<DE> Extent=<ES>28:3 - 28:44<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:3: UnexposedExpr=LCD_FillArea|Z:\msee\embeddedc\ex10.1\lcd.h:302:6 <US>c:@F@LCD_FillArea<UE> <DS>void LCD_FillArea(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)<DE> Extent=<ES>28:3 - 28:15<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:3: DeclRefExpr=LCD_FillArea|Z:\msee\embeddedc\ex10.1\lcd.h:302:6 (Reference) <US>c:@F@LCD_FillArea<UE> <DS>void LCD_FillArea(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)<DE> Extent=<ES>28:3 - 28:15<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:16: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>28:16 - 28:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:16: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:16 - 28:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>28:18 - 28:20<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:18 - 28:20<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>28:21 - 28:22<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:21 - 28:22<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>28:23 - 28:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:23 - 28:25<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>28:26 - 28:43<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:26: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>28:26 - 28:43<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:26: UnexposedExpr=arrColor|Z:\msee\embeddedc\ex10.1\main.c:7:14 <US>c:@arrColor<UE> <DS>arrColor<DE> Extent=<ES>28:26 - 28:34<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:26: DeclRefExpr=arrColor|Z:\msee\embeddedc\ex10.1\main.c:7:14 (Reference) <US>c:@arrColor<UE> <DS>arrColor<DE> Extent=<ES>28:26 - 28:34<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:35: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>28:35 - 28:42<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:35: ParenExpr= <US><UE> <DS><DE> Extent=<ES>28:35 - 28:40<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:36: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>28:36 - 28:39<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:36: DeclRefExpr=k|Z:\msee\embeddedc\ex10.1\main.c:11:6 (Reference) <US>c:main.c@227@F@main@k<UE> <DS>k<DE> Extent=<ES>28:36 - 28:37<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:28:41: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:41 - 28:42<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:30:3: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>30:3 - 30:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:30:3: MemberRefExpr=P10OUT|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1662:39 (Reference) <US>c:msp430fg4619.h@83045@Ua@Sa@FI@P10OUT<UE> <DS>P10OUT<DE> Extent=<ES>30:3 - 30:9<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:30:3: MemberRefExpr=|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1659:3 (Reference) <US><UE> <DS><DE> Extent=<ES>30:3 - 30:9<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:30:3: DeclRefExpr=|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1657:11 (Reference) <US><UE> <DS><DE> Extent=<ES>30:3 - 30:9<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:30:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>30:13 - 30:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:30:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>30:13 - 30:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:31:3: CallExpr=resetInterruptCounter|Z:\msee\embeddedc\ex10.1\timer.h:2:5 <US>c:@F@resetInterruptCounter<UE> <DS>int resetInterruptCounter(void)<DE> Extent=<ES>31:3 - 31:26<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:31:3: UnexposedExpr=resetInterruptCounter|Z:\msee\embeddedc\ex10.1\timer.h:2:5 <US>c:@F@resetInterruptCounter<UE> <DS>int resetInterruptCounter(void)<DE> Extent=<ES>31:3 - 31:24<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:31:3: DeclRefExpr=resetInterruptCounter|Z:\msee\embeddedc\ex10.1\timer.h:2:5 (Reference) <US>c:@F@resetInterruptCounter<UE> <DS>int resetInterruptCounter(void)<DE> Extent=<ES>31:3 - 31:24<EE>

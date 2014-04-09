@@ -1,9 +1,8 @@
 #include <msp430fg4619.h>
 
-int cnt = 60;
-
-int testInterrupt(){ return cnt == 0; }
-int resetInterruptCounter() {cnt = 60;}
+int doISR = 0;
+int testInterrupt(){ return doISR == 1; }
+int resetInterruptCounter() {doISR = 0;}
 
 void Init_timer_interrupt_10ms(){
   TACTL = 0;
@@ -26,5 +25,12 @@ void Run_timer_interrupt(){
 #pragma vector=TIMERA0_VECTOR 
 __interrupt void Timer_A (void) 
 {
+	static int cnt = 60;
+
+	if (cnt == 0) {
+		cnt = 60;
+		doISR = 1;
+	}
+
 	cnt--;
 }
