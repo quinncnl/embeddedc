@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\..\ex2\ex2.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\ex3.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+
