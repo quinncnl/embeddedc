@@ -1,5 +1,10 @@
 #include <msp430fg4619.h>
 
+int cnt = 60;
+
+int testInterrupt(){ return cnt == 0; }
+int resetInterruptCounter() {cnt = 60;}
+
 void Init_timer_interrupt_10ms(){
   TACTL = 0;
   TACTL |= TASSEL_2 | ID_1 | MC_1;
@@ -20,13 +25,6 @@ void Run_timer_interrupt(){
 
 #pragma vector=TIMERA0_VECTOR 
 __interrupt void Timer_A (void) 
-{   
-	static int cnt = 60;
-
-	if (cnt == 0) {
-		P10OUT ^= BIT6;
-		cnt = 60;
-	}
-
+{
 	cnt--;
 }

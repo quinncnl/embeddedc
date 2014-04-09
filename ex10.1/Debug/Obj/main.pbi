@@ -2598,6 +2598,7 @@
 <L>Z:\msee\embeddedc\ex10.1\main.c:7:12: macro expansion=WDTPW|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:2300:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>7:12 - 7:17<EE>
 <L>Z:\msee\embeddedc\ex10.1\main.c:7:20: macro expansion=WDTHOLD|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:2298:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>7:20 - 7:27<EE>
 <L>Z:\msee\embeddedc\ex10.1\main.c:11:13: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:87:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>11:13 - 11:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:19:13: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:87:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>19:13 - 19:17<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -2830,10 +2831,12 @@
 <L>Z:\msee\embeddedc\ex10.1\system.h:24:6: FunctionDecl=Restart|Z:\msee\embeddedc\ex10.1\system.h:24:6 (Declaration) <US>c:@F@Restart<UE> <DS>void Restart(void)<DE> Extent=<ES>24:1 - 24:19<EE>
 <L>Z:\msee\embeddedc\ex10.1\system.h:33:6: FunctionDecl=XT2_Init|Z:\msee\embeddedc\ex10.1\system.h:33:6 (Declaration) <US>c:@F@XT2_Init<UE> <DS>void XT2_Init(void)<DE> Extent=<ES>33:1 - 33:21<EE>
 <L>Z:\msee\embeddedc\ex10.1\system.h:39:6: FunctionDecl=GPIO_Init|Z:\msee\embeddedc\ex10.1\system.h:39:6 (Declaration) <US>c:@F@GPIO_Init<UE> <DS>void GPIO_Init(void)<DE> Extent=<ES>39:1 - 39:22<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.h:1:6: FunctionDecl=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:1:6 (Declaration) <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>1:1 - 1:33<EE>
-<L>Z:\msee\embeddedc\ex10.1\timer.h:3:6: FunctionDecl=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:3:6 (Declaration) <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>3:1 - 3:27<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:5:6: FunctionDecl=main|Z:\msee\embeddedc\ex10.1\main.c:5:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>5:1 - 18:2<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:6:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>6:1 - 18:2<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.h:1:5: FunctionDecl=testInterrupt|Z:\msee\embeddedc\ex10.1\timer.h:1:5 (Declaration) <US>c:@F@testInterrupt<UE> <DS>int testInterrupt(void)<DE> Extent=<ES>1:1 - 1:20<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.h:2:5: FunctionDecl=resetInterruptCounter|Z:\msee\embeddedc\ex10.1\timer.h:2:5 (Declaration) <US>c:@F@resetInterruptCounter<UE> <DS>int resetInterruptCounter(void)<DE> Extent=<ES>2:1 - 2:28<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.h:4:6: FunctionDecl=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:4:6 (Declaration) <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>4:1 - 4:33<EE>
+<L>Z:\msee\embeddedc\ex10.1\timer.h:6:6: FunctionDecl=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:6:6 (Declaration) <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>6:1 - 6:27<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:5:6: FunctionDecl=main|Z:\msee\embeddedc\ex10.1\main.c:5:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>5:1 - 23:2<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:6:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>6:1 - 23:2<EE>
 <L>Z:\msee\embeddedc\ex10.1\main.c:9:3: CallExpr=XT2_Init|Z:\msee\embeddedc\ex10.1\system.h:33:6 <US>c:@F@XT2_Init<UE> <DS>void XT2_Init(void)<DE> Extent=<ES>9:3 - 9:14<EE>
 <L>Z:\msee\embeddedc\ex10.1\main.c:9:3: UnexposedExpr=XT2_Init|Z:\msee\embeddedc\ex10.1\system.h:33:6 <US>c:@F@XT2_Init<UE> <DS>void XT2_Init(void)<DE> Extent=<ES>9:3 - 9:11<EE>
 <L>Z:\msee\embeddedc\ex10.1\main.c:9:3: DeclRefExpr=XT2_Init|Z:\msee\embeddedc\ex10.1\system.h:33:6 (Reference) <US>c:@F@XT2_Init<UE> <DS>void XT2_Init(void)<DE> Extent=<ES>9:3 - 9:11<EE>
@@ -2846,15 +2849,29 @@
 <L>Z:\msee\embeddedc\ex10.1\main.c:11:3: DeclRefExpr=|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1673:11 (Reference) <US><UE> <DS><DE> Extent=<ES>11:3 - 11:9<EE>
 <L>Z:\msee\embeddedc\ex10.1\main.c:11:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>11:13 - 11:17<EE>
 <L>Z:\msee\embeddedc\ex10.1\main.c:11:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>11:13 - 11:17<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:13:3: CallExpr=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:1:6 <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>13:3 - 13:30<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:13:3: UnexposedExpr=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:1:6 <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>13:3 - 13:28<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:13:3: DeclRefExpr=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:1:6 (Reference) <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>13:3 - 13:28<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:14:3: CallExpr=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:3:6 <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>14:3 - 14:24<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:14:3: UnexposedExpr=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:3:6 <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>14:3 - 14:22<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:14:3: DeclRefExpr=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:3:6 (Reference) <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>14:3 - 14:22<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:13:3: CallExpr=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:4:6 <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>13:3 - 13:30<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:13:3: UnexposedExpr=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:4:6 <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>13:3 - 13:28<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:13:3: DeclRefExpr=Init_timer_interrupt_10ms|Z:\msee\embeddedc\ex10.1\timer.h:4:6 (Reference) <US>c:@F@Init_timer_interrupt_10ms<UE> <DS>void Init_timer_interrupt_10ms(void)<DE> Extent=<ES>13:3 - 13:28<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:14:3: CallExpr=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:6:6 <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>14:3 - 14:24<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:14:3: UnexposedExpr=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:6:6 <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>14:3 - 14:22<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:14:3: DeclRefExpr=Run_timer_interrupt|Z:\msee\embeddedc\ex10.1\timer.h:6:6 (Reference) <US>c:@F@Run_timer_interrupt<UE> <DS>void Run_timer_interrupt(void)<DE> Extent=<ES>14:3 - 14:22<EE>
 <L>Z:\msee\embeddedc\ex10.1\main.c:15:3: CallExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>15:3 - 15:23<EE>
 <L>Z:\msee\embeddedc\ex10.1\main.c:15:3: UnexposedExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>15:3 - 15:21<EE>
 <L>Z:\msee\embeddedc\ex10.1\main.c:15:3: DeclRefExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>15:3 - 15:21<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:17:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>17:3 - 17:12<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:17:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>17:3 - 22:4<EE>
 <L>Z:\msee\embeddedc\ex10.1\main.c:17:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:9 - 17:10<EE>
-<L>Z:\msee\embeddedc\ex10.1\main.c:17:11: NullStmt= <US><UE> <DS><DE> Extent=<ES>17:11 - 17:12<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:17:12: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>17:12 - 22:4<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:18:2: IfStmt= <US><UE> <DS><DE> Extent=<ES>18:2 - 21:3<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:18:6: CallExpr=testInterrupt|Z:\msee\embeddedc\ex10.1\timer.h:1:5 <US>c:@F@testInterrupt<UE> <DS>int testInterrupt(void)<DE> Extent=<ES>18:6 - 18:21<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:18:6: UnexposedExpr=testInterrupt|Z:\msee\embeddedc\ex10.1\timer.h:1:5 <US>c:@F@testInterrupt<UE> <DS>int testInterrupt(void)<DE> Extent=<ES>18:6 - 18:19<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:18:6: DeclRefExpr=testInterrupt|Z:\msee\embeddedc\ex10.1\timer.h:1:5 (Reference) <US>c:@F@testInterrupt<UE> <DS>int testInterrupt(void)<DE> Extent=<ES>18:6 - 18:19<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:18:22: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>18:22 - 21:3<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:19:3: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>19:3 - 19:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:19:3: MemberRefExpr=P10OUT|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1662:39 (Reference) <US>c:msp430fg4619.h@83045@Ua@Sa@FI@P10OUT<UE> <DS>P10OUT<DE> Extent=<ES>19:3 - 19:9<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:19:3: MemberRefExpr=|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1659:3 (Reference) <US><UE> <DS><DE> Extent=<ES>19:3 - 19:9<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:19:3: DeclRefExpr=|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430fg4619.h:1657:11 (Reference) <US><UE> <DS><DE> Extent=<ES>19:3 - 19:9<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:19:13: ParenExpr= <US><UE> <DS><DE> Extent=<ES>19:13 - 19:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:19:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>19:13 - 19:17<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:20:3: CallExpr=resetInterruptCounter|Z:\msee\embeddedc\ex10.1\timer.h:2:5 <US>c:@F@resetInterruptCounter<UE> <DS>int resetInterruptCounter(void)<DE> Extent=<ES>20:3 - 20:26<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:20:3: UnexposedExpr=resetInterruptCounter|Z:\msee\embeddedc\ex10.1\timer.h:2:5 <US>c:@F@resetInterruptCounter<UE> <DS>int resetInterruptCounter(void)<DE> Extent=<ES>20:3 - 20:24<EE>
+<L>Z:\msee\embeddedc\ex10.1\main.c:20:3: DeclRefExpr=resetInterruptCounter|Z:\msee\embeddedc\ex10.1\timer.h:2:5 (Reference) <US>c:@F@resetInterruptCounter<UE> <DS>int resetInterruptCounter(void)<DE> Extent=<ES>20:3 - 20:24<EE>

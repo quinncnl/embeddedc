@@ -14,5 +14,10 @@ void main( void )
   Run_timer_interrupt();
   __enable_interrupt();
 
-  while(1);
+  while(1) {
+	if (testInterrupt()){
+		P10OUT ^= BIT6;
+		resetInterruptCounter();
+	}
+  }
 }
